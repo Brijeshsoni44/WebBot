@@ -1,0 +1,66 @@
+<html>
+    <body>
+
+        <script>!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+              // Replace 1.x.x with the version that you want
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    // initPayload: '/greet',
+                    customData: { language: "en" },
+                     socketUrl: "https://86ed-157-39-125-195.ngrok.io",
+                     socketPath: "/socket.io/",
+                    title: 'Welcome To Ogive Technology LLP',
+                    // add other props here
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+          })();
+          </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />-->
+  <!--</head>-->
+  <!--<body>-->
+    <!--<div class="chat-container"></div>-->
+
+    <!--<script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/>-->
+
+    <!--<script type="text/javascript">-->
+      <!--var chatroom = new window.Chatroom({-->
+        <!--socketUrl: "https://69d4-2409-4055-4e8d-7007-58e5-c52-485e-4d73.ngrok.io",-->
+        <!--socketPath: "/socket.io/",-->
+        <!--title: "Chat with Mike",-->
+        <!--container: document.querySelector(".chat-container"),-->
+        <!--welcomeMessage: "Hi, I am Mike. How may I help you?",-->
+        <!--speechRecognition: "en-US",-->
+        <!--voiceLang: "en-US"-->
+      <!--});-->
+      <!--chatroom.openChat();-->
+    <!--</script>-->
+  <!--</body>-->
+<!--</html>-->
+
+
+

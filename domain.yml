@@ -1,0 +1,278 @@
+actions:
+- utter_aayusapp
+- utter_aayush
+- utter_aayustech
+- utter_aayuswork
+- utter_achivement
+- utter_address
+- utter_reqdemo
+- utter_cont
+- utter_ceo
+- utter_chalk
+- utter_chalkapp
+- utter_chalktech
+- utter_chalkwork
+
+- utter_company
+- utter_detailcom
+
+- utter_eklvya
+- utter_eklvyaapp
+- utter_eklvyatech
+- utter_eklvyawork
+- utter_field
+- utter_garud
+- utter_gdapp
+- utter_gdtech
+- utter_gdwork
+
+- utter_greet
+
+- utter_iamabot
+- utter_jobapplication
+- utter_offer
+- utter_partner
+- utter_pehapp
+- utter_pehchan
+- utter_phchantech
+- utter_phchanwork
+- utter_product
+- utter_purpose
+- utter_rak
+- utter_rakapp
+- utter_raktech
+- utter_rakwork
+- utter_sam
+- utter_samvadapp
+- utter_samvadtech
+- utter_samvadwork
+- utter_sangapp
+- utter_sangrah
+- utter_sangtech
+- utter_sangwork
+- utter_servpr
+
+- utter_sugam
+- utter_sugamapp
+- utter_sugamtech
+- utter_sugamwork
+- utter_swaym
+- utter_swymapp
+- utter_swymtech
+- utter_swymwork
+- utter_tech
+- utter_thanks
+- utter_default
+
+intents:
+- request_demo
+- request_details
+- greet
+- goodbye
+- bot_challenge
+- comname
+- ceoname
+- addcom
+- detailcom
+- purposecom
+- serpro
+- productcom
+- opportunity
+- jobapp
+- partnercom
+- fieldcom
+- techcom
+- achivement
+- aboutrak
+- rakwork
+- techrak
+- apprak
+- abtgrah
+- sangwork
+- techsang
+- appsang
+- chal
+- chaawork
+- techchaa
+- appchaa
+- phchan
+- pehwork
+- techpech
+- apppeh
+- grud
+- grdwork
+- techgrd
+- appgrd
+- sugamabt
+- sgmwork
+- techsgm
+- appsgm
+- eklabt
+- eklwork
+- techekl
+- appekl
+- aboutswayam
+- symwork
+- techsym
+- appsym
+- ayus
+- ayuwork
+- techayu
+- appayu
+- samvad
+- smdwork
+- techsmd
+- appsmd
+- customerno
+- branches
+- issues
+- membership
+- working
+responses:
+  utter_aayusapp:
+  - text: Gym, Home Gym
+  utter_aayush:
+  - text: An AI based Gym and wellness clinic automation with prescriptive analysis to suggest diet, exercise routine etc,. Virtual assistant & real time recognition of members.
+  utter_aayustech:
+  - text: AI,Computor vision, DCNN etc
+  utter_aayuswork:
+  - text: Provide virtual mentor for fitness exersize, based on real time monitoring.
+  utter_achivement:
+  - text: todo
+  utter_address:
+  - text: Ogive technology,Plot Num 205,Suncity,Bandlaguda,Hyderabad,Telangana,India-500086
+  ##utter_ask_company:
+  ##- text: please provide your company name.
+  utter_cont:
+  - text: please try to contact on +91-40-29702989 or email us on - info@ogivetechnology.com ,or go through this link-  http://www.ogivetechnology.com/contact-us
+  
+  utter_ceo:
+  - text: Mily Saxena
+  utter_chalk:
+  - text: Chaalak is vehicle tracking system. Vehicle tracking basically refers to monitoring of the location of any moving vehicle using mobile(Android/iOS) or Web-app in a workstation Data could be saved in cloud or server.
+  utter_chalkapp:
+  - text: Companies can monitor the physical location and movement, status of their valuable assets spread across geographical locations.EMS Fleet can be monitered and  can sent quickly to the critical patients,life can be save.
+  utter_chalktech:
+  - text: GPS, Cloud computing, AI
+  utter_chalkwork:
+  - text: Vehicle tracking relies on both the GPS and a cellular system. Using a cellular data service, the co-ordinates are immediately transmitted to the tracking company’s computers.
+  
+  utter_company:
+  - text: Ogive Technology LLP
+  utter_detailcom:
+  - text: Ogive Technology is a product engineering services company helping clients in realising their ideas in Embedded Systems, Internet of Things, BlockChain,Artificial Intelligence, Digital Twining, and Immersive Technologies.
+  
+  utter_eklvya:
+  - text: Simulators for various systems (we are certified production agency) for a specified class of simulators.
+  utter_eklvyaapp:
+  - text: For orientation of geographic location, establishments, mines, offshore oil assets & pipelines etc. For training of individual in complex machines like mine winder, heavy earthmoving object, performing surgical procedures by doctors.
+  utter_eklvyatech:
+  - text: VR ,AI
+  utter_eklvyawork:
+  - text: Current versions involve viewing a virtual world inside a head mounted display (HMD) shutting out the real world. If you can still see your immediate surroundings,that’s augmented reality – a subject for another article.
+  utter_field:
+  - text: company working in many fields some of the examples are- Artifical Inteligence,Blockchain, cloud computing, Cybersecurity,digital twinning,embeded system,immersive reality, IOT, quantum  computing,robotics
+  
+  utter_garud:
+  - text: UAV (Service/Product) customised solution for deploying aerial or under water platform with desired payload and operational specification. SWARM concept is also offered.
+  utter_gdapp:
+  - text: there are few application of Garud- Aerial Photography,Shipping and delivery,Geographic Mapping,Disaster Management,Wildlife Monitoring and for more information please visit website.
+  utter_gdtech:
+  - text: AI, UAV used as main technology.
+  utter_gdwork:
+  - text: to do
+  utter_goodbye:
+  - text: okay,any other information you need,you can ask.
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Ogive Technology.
+  #Maverick@Prem.
+  utter_jobapplication:
+  - text: Please follow the link and submit application form
+          http://www.ogivetechnology.com/career
+  
+  utter_offer:
+  - text: List of Openings:- Hardware Design Engineer, Java developer with 1 to 2 years of experience, Sales Executive
+  utter_partner:
+  - text: No parterners,The Ogive run only Mily saxena
+  utter_pehapp:
+  - text: Great use in  Factories entrance and visitors management,Residential areas security and visitor management, Attendance management at offices, schools, college,Advanced ticket or pass in metro or buses, solving missing case.
+  utter_pehchan:
+  - text: Facial recognition is a way of recognizing a human face through technology.  A facial recognition system aided with Artificial Intelligence algorithms maps facial features from a live camera feed or photograph or a video.
+  utter_phchantech:
+  - text: Computer vision, Deep CNN, and AI used as main technologies.
+  utter_phchanwork:
+  - text: Picture of user face is captured from a live camera feed/photo/video. Our AI based facial recognition software reads the geometry of user face.Based on  key factors predicts the identity of the user. 
+  utter_product:
+  - text: Our products are:- Rakshak, Sangrah, Chaalak, Pehchan, Garud, Sugam,Eklavya,Swayam,Ayushman,Netra,Samvad
+  utter_purpose:
+  - text: We Design, Develop Intelligent Systems and Simulate them too.
+  utter_rak:
+  - text: Rakshak an artificial intelligence based predictive maintenance system. PdM service based on the digital application offers user-friendly  real-time dashboards and reports with a complete overview of equipment’s condition.
+  utter_rakapp:
+  - text: It is very cost effective , time and manpower saving maintainance system. It can be used with any type of machine.
+  utter_raktech:
+  - text: Technologies used in rakshak development are Artificial Intelligence, Machine Learning, Deep learning.
+  utter_rakwork:
+  - text: Rakshak comprising sensors and data acquisition & transmission unit and data analytics being executed in AI based analytics tool leading to delivery of reports in a customised manner to the client.
+  utter_sam:
+  - text: This is a voice/text based application and leads to building up of an intelligent platform that binds together different modules of SAP, without impacting the existing applications.
+  utter_samvadapp:
+  - text: Personal assistance, To increase user experience with website/products.
+  utter_samvadtech:
+  - text: NLP,ML, MongoDB, Flask
+  utter_samvadwork:
+  - text: Take input from user in speech form ,convert it into text , predict intent of user and fetch output from database based on intent.
+  utter_sangapp:
+  - text: Used in Warehouse. Predict warehouse related issue which could impact the  item quality e.g. temp, humidity, staff/individual/resource dependency and tracking.
+  utter_sangrah:
+  - text: Sangrah an artificial intelligence, blockchain based warehouse & supply chain automation system.
+  utter_sangtech:
+  - text: AI,ML and Blockchain are main technologies used in development of Sangrah.
+  utter_sangwork:
+  - text: Intelligent Warehouses - which connects item data to customers, predicts  demands and stocking options as well as risk in maintenance.Depending on historical data on quality of products, timely delivery, number of defects, losses in transport etc.
+  utter_servpr:
+  - text: Ogive Technology is a product engineering services company
+  
+  utter_sugam:
+  - text: Blockchain integrated with AI solution for land records, education & health card automation solution.
+  utter_sugamapp:
+  - text: Contract management, Inventory management, land /Asset management and Automotive.
+  utter_sugamtech:
+  - text: Blockchain
+  utter_sugamwork:
+  - text: to do
+  utter_swaym:
+  - text: Robotic solutions for defense and warehouse operations automation.
+  utter_swymapp:
+  - text: Automotive,Logistics,eCommerce,Travel & Hospitality,Administrative tasks,Banking Finance,Healthcare,Education,Defence,Aerospace.
+  utter_swymtech:
+  - text: Robotics,AI
+  utter_swymwork:
+  - text: to do
+  utter_tech:
+  - text: We work on many technologies and latest technology like- React.js, .net,Machine learning, Bert, Deep leaning, AI
+  utter_thanks:
+  - text: Thanks for your valuable time
+  utter_reqdemo:
+  - text: please fill ther form using link-  http://www.ogivetechnology.com/products ,we will soon get back to you
+  utter_default:
+  - text: sorry ! I didn't understand.Try again...
+  utter_custm:
+  - text: We have worked with 37 companies with various kind of projects. some of our clients - Indian Defence, Mercedes,Mistubishi,WesternStar,City Gym,JSN Tech,Bharat Benz, Xmytaxi, Fuso and many more.
+  utter_branch:
+  - text: Currently, our sales branches in Banglore,Delhi,Vizag, Kolkata, Tokyo, USA and Qatar.
+  utter_issue:
+  - text: You may call us on +91-40-29702989 or email us on - info@ogivetechnology.com, we will get back to you ASAP.
+  utter_member:
+  - text: We have membership of these reputed organisations- AIMED,Digital India, JETRO,MSME, NASSCOM ,NSIC and SIDM .
+  utter_work:
+  - text: Monday to Friday (8:30 AM to 5:30 PM)
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+
+##rasa run -m models --enable-api --cors "*" --debug

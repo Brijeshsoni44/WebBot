@@ -1,0 +1,44 @@
+class ActionName(Action):
+#
+    def name(self) -> Text:
+        return "action_email"
+
+    def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+             dispatcher.utter_message(template="utter_email")
+             return [SlotSet('name',tracker.latest_message['text'])]
+
+class Actioncontactsubmit(Action):
+#
+    def name(self) -> Text:
+        return "action_contact_submit"
+
+    def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+             dispatcher.utter_message(template="utter_sumit")
+             return [SlotSet('message',tracker.latest_message['text'])]
+
+class Actionmessage(Action):
+#
+    def name(self) -> Text:
+        return "action_message"
+
+    def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+             dispatcher.utter_message(template="utter_message ")
+             return [SlotSet('email',tracker.latest_message['text'])]
+
+class ActionSubmit(Action): 
+                    def name(self) -> Text:
+                        return "action_submit"
+
+                    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]: 
+                                 DataUpdate(tracker.get_slot("name"),tracker.get_slot("email"),tracker.get_slot("message")) 
+                                 dispatcher.utter_message("Thanks for the valuable feedback. ") 
+                                 return []
